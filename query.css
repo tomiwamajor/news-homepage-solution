@@ -14,8 +14,6 @@
     width: 390px;
     margin-right: auto;
     margin-left: auto;
-    /* padding-left: 2rem; */
-    /* padding-right: 2rem; */
   }
 
   .menu-links {
@@ -45,10 +43,11 @@
 
   .insight {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .insight-imgs {
-    height: 18rem;
+    /* height: 18rem; */
     width: 18rem;
   }
 }
