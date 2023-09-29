@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+}
+/* the container */
+.container {
+  margin: 5rem auto 0 auto;
+  width: 110rem;
+}
+/* the nav bar */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.menu-links ul {
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: flex;
+  list-style: none;
+  gap: 3.5rem;
+  transition: all 0.4s;
+}
+
+.menu-links ul li:hover {
+  cursor: pointer;
+  color: hsl(5, 85%, 63%);
+  transition: all 0.4s;
+}
+
+/* section 1 */
+/* part 1 */
+.future-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  margin-bottom: 8rem;
+}
+
+.future-grid-left-img img {
+  width: 100%;
+}
+
+.future-grid-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2rem;
+  gap: 3rem;
+}
+
+.future-grid-head {
+  font-weight: 800;
+  font-size: 6rem;
+}
+
+.future-grid-paragraph {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: hsl(236, 13%, 42%);
+}
+
+.btn {
+  margin-top: 4rem;
+  display: block;
+  border: none;
+  padding: 1rem 4rem;
+  background-color: hsl(5, 85%, 63%);
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  transition: all 0.7s;
+}
+
+.btn:hover {
+  background-color: hsl(240, 100%, 5%);
+  transition: all 3s;
+}
+
+/* section 1 */
+/* part 2 */
+
+.future-grid-right {
+  background-color: hsl(240, 100%, 5%);
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.future-grid-right-head {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  color: hsl(35, 77%, 62%);
+}
+
+.future-grid-right-content {
+  margin-bottom: 3rem;
+}
+
+.future-grid-right-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.future-grid-right-heading:hover {
+  cursor: pointer;
+  transition: all 0.9s;
+  color: hsl(35, 77%, 62%);
+}
+
+.future-grid-right-content p {
+  font-size: 1.3rem;
+  color: hsl(233, 8%, 79%);
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+/* section 2 */
+/* insight-boxes */
+.insight {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.insight-boxes {
+  display: flex;
+  gap: 2rem;
+}
+
+.insight-imgs {
+  height: 12rem;
+  width: 12rem;
+}
+
+.insight-imgs img {
+  width: 100%;
+}
+
+.insight-number {
+  color: hsl(233, 8%, 79%);
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+
+.insight-head {
+  font-size: hsl(240, 100%, 5%);
+  font-size: 1.5rem;
+  padding-bottom: 1.3rem;
+}
+
+.insight-head:hover {
+  transition: all 0.4s;
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+
+.insight-paragraph {
+  font-size: 1.3rem;
+  color: hsl(236, 13%, 42%);
+  font-weight: 400;
+}
+
+/* footer */
+footer {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  justify-content: center;
+}
+
+.hidden {
+  background-color: #fff;
+  border: none;
+  display: none;
+}
+
+.hidden2 {
+  background-color: #fff;
+  border: none;
+  display: none;
+}
