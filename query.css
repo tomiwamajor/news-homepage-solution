@@ -16,6 +16,7 @@
   }
 
   .menu-links {
+    display: none;
     /* backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     position: absolute;
