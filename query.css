@@ -16,12 +16,32 @@
     margin-left: auto;
   }
 
+  .menu-open {
+    transform: translate(-100%) !important;
+  }
+
+  .menu-links ul {
+    flex-direction: column;
+    margin-top: 20rem;
+  }
   .menu-links {
-    display: none;
+    display: block;
+    transition: all 0.7s;
+    height: 100vh;
+    top: 0;
+    flex-direction: column;
+    position: fixed;
+    padding-left: 5rem;
+    right: -270px;
+    background-color: #fff;
+    width: 270px;
+    transform: translateX(100%);
   }
 
   .hidden {
     display: block;
+    cursor: pointer;
+    z-index: 1;
   }
 
   .future-grid {
