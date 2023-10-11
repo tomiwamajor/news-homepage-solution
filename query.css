@@ -22,15 +22,15 @@
 
   .menu-links ul {
     flex-direction: column;
-    margin-top: 20rem;
+    margin-top: 12rem;
   }
   .menu-links {
     display: block;
+    position: fixed;
     transition: all 0.7s;
     height: 100vh;
     top: 0;
     flex-direction: column;
-    position: fixed;
     padding-left: 5rem;
     right: -270px;
     background-color: #fff;
